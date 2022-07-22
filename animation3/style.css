@@ -1,0 +1,37 @@
+div.animation{
+	width:100px;
+	height:100px;
+	background-color:black;
+	color:white;
+	margin-left:50px;
+	margin-top:30px;
+	font-size:25px;
+	padding:25px;
+	position:relative;
+	text-align:center;
+	
+	/*transition:1s;*/
+	
+	animation-name:dipu;
+	animation-duration:3s;
+	animation-iteration-count: infinite;
+	animation-delay:1s;
+	animation-direction:
+	
+}
+/*div.animation:hover{
+	background-image:url("Water lilies.jpg");
+	background-size:cover;
+}*/
+
+@keyframes dipu{
+	0%{left:0px; top:0;}
+	
+	25%{left:400px; top:0;}
+	
+	50%{left:400px; top:400px;}
+	
+	75%{left:0; top:400px;}
+	
+	100%{left:0; top:0px;}
+}

@@ -1,0 +1,22 @@
+.animation{
+	background-image:url("imgs/Water lilies.jpg");
+	width:200px;
+	height:200px;
+	background-size:200px; 200px;
+	
+	animation-name:Water;
+	animation-duration:1s;
+	animation-iteration-count:5;
+}
+@keyframes Water{
+	from{
+		background-image:url("imgs/Water lilies.jpg");
+		background-size:200px;200px;
+		}
+	
+	to{
+		background-image:url("imgs/Blue hills.jpg");
+		background-size:200px;200px;
+		}
+	
+}

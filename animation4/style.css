@@ -1,0 +1,15 @@
+div.animation{
+	background-color:black;
+	width:150px;
+	height:150px;
+	
+	animation-name:dipu;
+	animation-duration:1s;
+	animation-iteration-count:infinate;
+	animation-delay:1s;
+}
+@keyframes dipu{
+	from{background: url("Sunset.jpg"); background-size: 150px;150px;}
+	
+	to{background: url("Winter.jpg"); background-size: 150px; 150px;}
+}
